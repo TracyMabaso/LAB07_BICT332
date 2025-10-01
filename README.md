@@ -1,9 +1,12 @@
 
 1.1 – Individual Classifiers
 
-A)Logistic Regression worked well because the flower types in the dataset can mostly be separated using straight lines.
+A)Logistic Regression worked well because the flower types in the dataset can mostly be separated using straight lines. 
+
 B)KNN didn’t perform quite as well since it relies on how close data points are to each other, and sometimes nearby points belong to different categories.
+
 C)Decision Tree had very high accuracy on the training data but didn’t do as well on the test data, which means it learned the training data too closely (overfitting).
+
 D)Random Forest, which is a group of decision trees working together, helped reduce overfitting and gave better results on new data than a single tree.
 
 Note that Individual models can do a good job, but some (like decision trees) might memorize the training data too much, and others (like KNN) can be affected by noisy or confusing data.
